@@ -7,6 +7,7 @@ import { Home } from './pages/home/Home.jsx';
 import { Auth } from './pages/auth/Auth.jsx';
 import { Parties } from './pages/parties/Paries.jsx';
 import Header from './components/Header/Header.jsx';
+import Footer from './components/Footer/Fooret.jsx';
 
 function App() {
 
@@ -17,11 +18,12 @@ function App() {
       <div className='app-container'>
         <Routes>
           <Route path="/" element={< Home />} />
+          <Route path="/promo" element={''} />
           <Route path="/auth" element={<Auth />} />
           <Route path="/parties" element={<Parties />} />
         </Routes>
       </div>
-      
+      < Footer />
     </BrowserRouter>
   )
 }
