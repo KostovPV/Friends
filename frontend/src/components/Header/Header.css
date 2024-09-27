@@ -1,0 +1,109 @@
+
+/* navigation */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #6b96ec;
+    z-index: 10;
+}
+
+nav {
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: "Oswald";
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav ul li {
+    margin: 0 1rem;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #e8dfdf;
+
+}
+
+.logo {
+    width: 18rem; /* Adjusts to take the full width of its parent */
+    height: 6rem; /* Adjusts to take the full height of its parent */
+    background-image: url('/assets/images/white.png'); /* Assuming the image is in the public folder */
+    background-size: contain; /* Ensures the entire logo fits within the container */
+    background-repeat: no-repeat; /* Prevents repeating the image */
+    background-position: center; /* Ensures the logo is centered in the container */
+}
+/* burger */
+.burger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.burger-menu .line {
+    width: 25px;
+    height: 3px;
+    background: #fff;
+    margin: 4px;
+    transition: all 0.3s ease-in;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        justify-content: space-between;
+    }
+
+    nav ul {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: #303030;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        display: none;
+    }
+
+    nav ul li {
+        margin: 15px 0;
+    }
+
+    .burger-menu {
+        display: flex;
+    }
+
+
+    .menu-toggle:checked~ul {
+        display: flex;
+    }
+
+    .menu-toggle:checked+.burger-menu .line:nth-child(1) {
+        transform: rotate(-45deg) translate(-5px, 5px);
+    }
+
+    .menu-toggle:checked+.burger-menu .line:nth-child(2) {
+        opacity: 0;
+    }
+
+    .menu-toggle:checked+.burger-menu .line:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -5px);
+    }
+}
