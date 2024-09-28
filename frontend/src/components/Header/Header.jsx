@@ -20,7 +20,7 @@ function Header() {
             <ul>
                 <li><a href="#">Начало</a></li>
                 <li><a href="#">Запази парти</a></li>
-                <li><a href="#">Промоции</a></li>
+                <li><a href="#">Пакети</a></li>
                 <li><a href="#">Условия</a></li>
                 <li><a href="#">Контакти
                     </a></li>
