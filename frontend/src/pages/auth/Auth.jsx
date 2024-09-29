@@ -1,22 +1,31 @@
 import {
-    SignIn,
-    SignedOut, SignInButton,
+    SignInButton,
     SignUpButton,
     UserButton,
-    SignUp,
-    SignedIn
-} from '@clerk/clerk-react'
+    SignedIn,
+    SignedOut
+} from '@clerk/clerk-react';
+import './Auth.css'; 
+
 export const Auth = () => {
     return (
-        <div className='sign-in-container'>
+        <div className='auth-container'>
             <SignedOut>
-                <SignUpButton mode='modal' />
-                <SignInButton mode='modal' />
+                <div className='auth-buttons'>
+                    <SignUpButton mode='modal'>
+                        <button className="auth-btn">Регистрирай се</button>
+                    </SignUpButton>
+                    <SignInButton mode='modal'>
+                        <button className="auth-btn">Влез</button>
+                    </SignInButton>
+                </div>
             </SignedOut>
 
             <SignedIn>
-                <UserButton />
+                <div className="user-btn">
+                    <UserButton />
+                </div>
             </SignedIn>
         </div>
-    )
+    );
 }
