@@ -18,11 +18,11 @@ function Header() {
                 <span className="line"></span>
             </label>
             <ul>
-                <li><a href="#">Начало</a></li>
+                <li><a href="/">Начало</a></li>
                 <li><a href="#">Запази парти</a></li>
-                <li><a href="#">Пакети</a></li>
+                <li><a href="#">Галерия</a></li>
                 <li><a href="#">Условия</a></li>
-                <li><a href="#">Контакти
+                <li><a href="/contacts">Контакти
                     </a></li>
             </ul>
             <div className="search-icon">
