@@ -22,8 +22,8 @@ function Header() {
                 <li><a href="#">Запази парти</a></li>
                 <li><a href="#">Галерия</a></li>
                 <li><a href="#">Условия</a></li>
-                <li><a href="/contacts">Контакти
-                    </a></li>
+                <li><a href="/contacts">Контакти</a></li>
+                <li><a href="/auth">Влез с потребителско име</a></li>
             </ul>
             <div className="search-icon">
                 <i className="fa-solid fa-magnifying-glass"></i>

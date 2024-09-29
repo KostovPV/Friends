@@ -22,7 +22,7 @@ function App() {
           <Route path="/promo" element={''} />
           <Route path="/auth" element={<Auth />} />
           <Route path="/parties" element={<Parties />} />
-          <Route path='/contact' element={ <Contacts />}/>
+          <Route path='/contacts' element={ <Contacts />}/>
         </Routes>
       </div>
       < Footer />

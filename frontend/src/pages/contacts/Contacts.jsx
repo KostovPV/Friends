@@ -1,9 +1,8 @@
-import React from 'react'
+import './Contacts.css'
 
-function Contacts() {
+export default function Contacts() {
+  console.log("Contacts component rendered"); 
   return (
-    <div>Contact</div>
-  )
+    <div className='contacts-section'>Contact</div>
+  );
 }
-
-export default Contacts
