@@ -7,7 +7,7 @@ import path from 'path';
 dotenv.config();
 
 const app = express();
-const PORT = process.env.PORT ||  4000;
+const PORT = process.env.VITE_PORT ||  4000;
 
 //for deployment
 const __dirname = path.resolve();
