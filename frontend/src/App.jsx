@@ -9,6 +9,7 @@ import { Parties } from './pages/parties/Paries.jsx';
 import Header from './components/Header/Header.jsx';
 import Footer from './components/Footer/Fooret.jsx';
 import Contacts from './pages/contacts/Contacts.jsx';
+import Terms from './pages/terms/Terms.jsx';
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
           <Route path="/auth" element={<Auth />} />
           <Route path="/parties" element={<Parties />} />
           <Route path='/contacts' element={ <Contacts />}/>
+          <Route path='/terms' element={ <Terms />}/>
         </Routes>
       </div>
       < Footer />

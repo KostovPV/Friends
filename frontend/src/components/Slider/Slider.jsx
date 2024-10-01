@@ -4,8 +4,12 @@ import './Slider.css'; // Import CSS for the slider
 import kid1 from "../../assets/images/kids1.jpg";
 import kid2 from "../../assets/images/kids2.jpg";
 import kid3 from "../../assets/images/kids3.jpg";
+import kid4 from "../../assets/images/kids10.jpg";
+import kid5 from "../../assets/images/kids11.jpg";
+import kid6 from "../../assets/images/kids12.jpg";
+import kid7 from "../../assets/images/kids13.jpg";
 
-const images = [kid1, kid2, kid3];
+const images = [kid1, kid2, kid3, kid4, kid5, kid6, kid7];
 
 export default function Slider() {
   const [currentIndex, setCurrentIndex] = useState(0);
