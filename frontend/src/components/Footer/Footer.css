@@ -23,7 +23,6 @@ footer {
 
 .footer__categories a:hover {
     background: rgb(247, 247, 245);
-    /* color:  white; */
 }
 
 .footer__copyright {
@@ -44,4 +43,12 @@ footer {
 
 .error-page h2 {
     margin-top: 3rem;
+}
+@media screen and (max-width: 600px) {
+    .footer__categories a {
+        padding: 0.6rem 0.5rem;
+    }
+li {
+    margin: -0.5rem;
+}
 }

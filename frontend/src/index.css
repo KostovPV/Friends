@@ -8,3 +8,6 @@ html, body{
 ol, ul {
 	list-style: none;
 }
+.root{
+	min-width: 29rem;
+}

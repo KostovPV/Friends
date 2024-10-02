@@ -16,18 +16,20 @@ function App() {
 
   return (
     <BrowserRouter>
-      <Header />
+
       <div className='app-container'>
+        <Header />
         <Routes>
           <Route path="/" element={< Home />} />
           <Route path="/promo" element={''} />
           <Route path="/auth" element={<Auth />} />
           <Route path="/parties" element={<Parties />} />
-          <Route path='/contacts' element={ <Contacts />}/>
-          <Route path='/terms' element={ <Terms />}/>
+          <Route path='/contacts' element={<Contacts />} />
+          <Route path='/terms' element={<Terms />} />
         </Routes>
+        < Footer />
       </div>
-      < Footer />
+
     </BrowserRouter>
   )
 }

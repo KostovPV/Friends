@@ -39,12 +39,12 @@ nav ul li a {
 }
 
 .logo {
-    width: 18rem; /* Adjusts to take the full width of its parent */
-    height: 6rem; /* Adjusts to take the full height of its parent */
-    background-image: url('/assets/images/white.png'); /* Assuming the image is in the public folder */
-    background-size: contain; /* Ensures the entire logo fits within the container */
-    background-repeat: no-repeat; /* Prevents repeating the image */
-    background-position: center; /* Ensures the logo is centered in the container */
+    width: 18rem; 
+    height: 6rem; 
+    background-image: url('/assets/images/white.png'); 
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    background-position: center; 
 }
 /* burger */
 .burger-menu {

@@ -1,6 +1,7 @@
 .terms-container {
     max-width: 800px;
     margin: 0 auto;
+    padding: 0.5rem 1.0rem;
     font-family: Arial, sans-serif;
   }
   h1, h2 {
