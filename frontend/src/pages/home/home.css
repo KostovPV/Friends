@@ -1,3 +1,6 @@
+.come-container{
+    background-color: antiquewhite;
+}
 .home-component {
     background-image: url("../../assets/333.png");
     background-size: cover; 
@@ -19,7 +22,7 @@
     .home-component {
     background-size: contain;
     margin-top: -18rem;
-    margin-bottom: -18rem;
+    margin-bottom: -16rem;
     }
 }
 @media screen and (max-width: 650px) {
@@ -60,7 +63,8 @@
 @media screen and (max-width: 450px) {
     .home-component {
     background-size: contain;
+ height: 920px;
     margin-top: -24rem;
-    margin-bottom: -24rem;
+    margin-bottom: -26rem;
     }
 }

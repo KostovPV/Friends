@@ -3,11 +3,11 @@ import './home.css'
 
 export const Home = () => {
     return (
-        <>
-        <div className='home-component'>
-           
+        <div className='come-container'>
+            <div className='home-component'>
+
+            </div>
+            < Slider />
         </div>
-        < Slider />
-        </>
     )
 } 

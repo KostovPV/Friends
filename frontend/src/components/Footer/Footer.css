@@ -54,3 +54,13 @@ footer {
         margin-bottom: 4rem;
     }
 }
+@media screen and (max-width: 400px) {
+ 
+    .footer__categories a {
+        padding: 0.6rem 0.4rem;
+    }
+    .footer__categories {
+        gap: 0.8rem;
+        margin-bottom: 3rem;
+    }
+}
