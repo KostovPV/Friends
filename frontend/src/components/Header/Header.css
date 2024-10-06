@@ -121,4 +121,30 @@ nav ul li a {
     .menu-toggle:checked+.burger-menu .line:nth-child(3) {
         transform: rotate(45deg) translate(-5px, -5px);
     }
+
+  
+}
+
+@media screen and ( max-width: 768px) {
+    .top-social{
+        margin-left: 10rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .top-social{
+        margin-left: auto;
+    }
+    .burger-menu {
+        margin-left: 3rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .top-social{
+        margin-left: auto;
+    }
+    .burger-menu {
+        margin-left: auto;
+    }
 }
