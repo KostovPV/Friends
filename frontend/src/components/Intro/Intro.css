@@ -9,7 +9,7 @@
 .intro-text {
     white-space: nowrap; 
     display: inline-block;
-    animation: scrollText 40s linear infinite ; 
+    animation: scrollText 40s linear infinite; 
     font-size: 1.5rem;
     padding-left: 100%; /* Start the animation from off-screen */
 }

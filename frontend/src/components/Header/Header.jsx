@@ -21,7 +21,7 @@ function Header() {
                     </label>
                     <ul>
                         <li><a href="/">Начало</a></li>
-                        <li><a href="#">Запази парти</a></li>
+                        <li><a href="/book-party">Запази парти</a></li>
                         <li><a href="#">Галерия</a></li>
                         <li><a href="/terms">Условия</a></li>
                         <li><a href="/contacts">Контакти</a></li>
