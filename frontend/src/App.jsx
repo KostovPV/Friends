@@ -11,25 +11,8 @@ import Footer from './components/Footer/Fooret.jsx';
 import Contacts from './pages/contacts/Contacts.jsx';
 import Terms from './pages/terms/Terms.jsx';
 import BookParty from './pages/bookParty/BookParty.jsx';
+import Upload from './pages/upload/Upload.jsx';
 
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-
-
-
-const firebaseConfig = {
-  apiKey: "AIzaSyB3SQERW9UJzVK13Hp8zTfpC2c-rwNdvrc",
-  authDomain: "friends-49039.firebaseapp.com",
-  projectId: "friends-49039",
-  storageBucket: "friends-49039.appspot.com",
-  messagingSenderId: "39272086751",
-  appId: "1:39272086751:web:b93d9bc98fd8bda64dfd6a",
-  measurementId: "G-D0K049NB16"
-};
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
 
 function App() {
 
@@ -47,6 +30,9 @@ function App() {
           <Route path='/contacts' element={<Contacts />} />
           <Route path='/terms' element={<Terms />} />
           <Route path='/book-party' element={<BookParty />} />
+          <Route path='/upload' element={<Upload />} />
+          
+
         </Routes>
         < Footer />
       </div>
