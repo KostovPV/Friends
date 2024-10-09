@@ -18,7 +18,7 @@ const PORT = process.env.VITE_PORT || 3001;
 // const PORT = 3001;
 const mongoUri = process.env.VITE_MONGODB_URI;
 
-console.log('Mongo URI:', mongoUri); // Debugging line
+// console.log('Mongo URI:', mongoUri); 
 
 mongoose.connect(mongoUri)
     .then(() => console.log("Connected to MongoDB"))
@@ -47,6 +47,17 @@ app.post("/api/upload", async (req, res) => {
         res.status(500).json({ message: "Error uploading image", error });
     }
 });
+// GET route to fetch all images
+app.get('/api/images', async (req, res) => {
+    try {
+        const images = await Image.find(); // Fetch all images from the 'gallery' collection
+        res.status(200).json(images);
+    } catch (error) {
+        console.error("Error fetching images:", error);
+        res.status(500).json({ message: "Error fetching images", error });
+    }
+});
+
 
 app.get("*", (req, res) => {
     res.sendFile(path.join(__dirname, "frontend", "dist", "index.html"));

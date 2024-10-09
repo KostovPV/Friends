@@ -22,11 +22,11 @@ function Header() {
                     <ul>
                         <li><a href="/">Начало</a></li>
                         <li><a href="/book-party">Запази парти</a></li>
-                        <li><a href="#">Галерия</a></li>
                         <li><a href="/terms">Условия</a></li>
                         <li><a href="/contacts">Контакти</a></li>
                         <li><a href="/upload">Качи снимка</a></li>
                         <li><a href="/auth">Вход за потребители</a></li>
+                        <li><a href="/gallery">Галерия</a></li>
                     </ul>
                     <div className="top-social">
                         <a href="https://www.facebook.com/profile.php?id=61554304582027" aria-label="Facebook Profile">

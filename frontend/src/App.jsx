@@ -12,6 +12,7 @@ import Contacts from './pages/contacts/Contacts.jsx';
 import Terms from './pages/terms/Terms.jsx';
 import BookParty from './pages/bookParty/BookParty.jsx';
 import Upload from './pages/upload/Upload.jsx';
+import Gallery from './pages/gallery/Gallery.jsx';
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
           <Route path='/terms' element={<Terms />} />
           <Route path='/book-party' element={<BookParty />} />
           <Route path='/upload' element={<Upload />} />
+          <Route path='/gallery' element={<Gallery />} />
           
 
         </Routes>
